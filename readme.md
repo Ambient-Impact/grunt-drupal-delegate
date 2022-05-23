@@ -11,7 +11,7 @@ recommended for more general-purpose shell execution.
 
 * A working [Drupal](https://www.drupal.org/) installation
 
-* [Drush](https://www.drush.org/)
+* [Drush](https://www.drush.org/) 9 or newer
 
 * [Grunt](https://gruntjs.com/) 1.5 or newer
 
@@ -28,5 +28,7 @@ recommended for more general-purpose shell execution.
 ----
 
 # Credits
+
+* [semver](https://www.npmjs.com/package/semver) is used to compare semantic version strings for Drush detection.
 
 * [Shescape](https://www.npmjs.com/package/shescape) is used to escape shell characters in the delegated commands to prevent arbitrary shell execution. Recommended that you use it in your own projects whenever executing shell commands containing user input.
