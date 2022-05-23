@@ -7,6 +7,23 @@ recommended for more general-purpose shell execution.
 
 ----
 
+# Installation
+
+```
+npm install --save-dev grunt-drupal-delegate
+```
+
+Then, in your project root's gruntfile:
+
+```
+require('grunt-drupal-delegate')(grunt);
+```
+
+And that's it - [any tasks](https://gruntjs.com/creating-tasks) defined in
+Drupal extensions that Drush can find can now be invoked from the Drupal root.
+
+----
+
 # Usage
 
 From your Drupal root directory, invoke `grunt drupal_extension:task`, where
