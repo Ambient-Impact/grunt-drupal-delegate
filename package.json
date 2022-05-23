@@ -1,0 +1,30 @@
+{
+  "name": "grunt-drupal-delegate",
+  "version": "0.1.0",
+  "description": "Delegate Grunt commands to Drupal extensions",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {},
+  "repository": "https://github.com/Ambient-Impact/grunt-drupal-delegate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambient-Impact/grunt-drupal-delegate.git"
+  },
+  "author": "Ambient.Impact",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ambient-Impact/grunt-drupal-delegate/issues"
+  },
+  "homepage": "https://github.com/Ambient-Impact/grunt-drupal-delegate",
+  "peerDependencies": {
+    "grunt": ">=1.5.2"
+  },
+  "dependencies": {
+    "shescape": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
