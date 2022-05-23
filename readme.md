@@ -15,7 +15,7 @@ npm install --save-dev grunt-drupal-delegate
 
 Then, in your project root's gruntfile:
 
-```
+```javascript
 require('grunt-drupal-delegate')(grunt);
 ```
 
