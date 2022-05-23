@@ -56,6 +56,12 @@ extension's gruntfile.
 
 ----
 
+# Questions and answers
+
+* Set up everything correctly but getting `Unable to decode output into JSON: Syntax error` on Windows? This was a [known issue](https://github.com/consolidation/site-process/issues/56) fixed in [Drush 11.0.6](https://github.com/drush-ops/drush/releases/tag/11.0.6).
+
+----
+
 # Planned improvements
 
 * Caching of Drupal extension names and their local paths so that Drush does not need to be invoked every time. Ideally this would be stored in a temporary file that's only rebuilt when the Drupal cache is rebuilt and/or extensions enabled/disabled.
