@@ -1,9 +1,29 @@
-Grunt plug-in to run Grunt tasks defined in Drupal extensions from the Drupal
-root.
+Grunt plug-in to run Grunt tasks defined in Drupal extensions (modules, themes,
+install profiles) from the Drupal root.
 
 This is inspired by
 [`grunt-shell`](https://github.com/sindresorhus/grunt-shell), which is
 recommended for more general-purpose shell execution.
+
+----
+
+# Usage
+
+From your Drupal root directory, invoke `grunt drupal_extension:task`, where
+`drupal_extension` is the machine name of the Drupal extesion you want to run
+tasks for, with anything after the first `:` the name of a task or [multi
+task](https://gruntjs.com/creating-tasks#multi-tasks) defined in that Drupal
+extension's gruntfile.
+
+## Examples
+
+* `grunt my_module:sass` - Invoke the `sass` task defined in `my_module`'s gruntfile.
+
+* `grunt my_theme:sass:header` - Invoke the `sass:header` multi task defined in `my_theme`'s gruntfile.
+
+* `grunt my_module:sass my_theme:sass:header` - Do both of the above with a single command.
+
+* `grunt my_module:sass my_theme:sass my_theme:uglify` - Also supports more than one task per Drupal extension.
 
 ----
 
