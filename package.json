@@ -18,6 +18,18 @@
     "url": "https://github.com/Ambient-Impact/grunt-drupal-delegate/issues"
   },
   "homepage": "https://github.com/Ambient-Impact/grunt-drupal-delegate",
+  "keywords": [
+    "gruntplugin",
+    "drupal",
+    "shell",
+    "command",
+    "cmd",
+    "exec",
+    "spawn",
+    "child",
+    "process",
+    "cli"
+  ],
   "peerDependencies": {
     "grunt": ">=1.5.2"
   },
