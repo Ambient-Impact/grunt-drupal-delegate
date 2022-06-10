@@ -64,7 +64,7 @@ extension's gruntfile.
 
 # Planned improvements
 
-* Caching of Drupal extension names and their local paths so that Drush does not need to be invoked every time. Ideally this would be stored in a temporary file that's only rebuilt when the Drupal cache is rebuilt and/or extensions enabled/disabled.
+* Caching of Drupal extension names and their local paths so that Drush does not need to be invoked every time. Ideally this would be stored in a temporary file that's only rebuilt when the Drupal cache is rebuilt and/or extensions enabled/disabled. The [Fraud package](https://www.npmjs.com/package/fraud) seems like a good solution as a file system cache.
 
 * Options to enable or disable output like [`grunt-shell`](https://github.com/sindresorhus/grunt-shell#options) has.
 
