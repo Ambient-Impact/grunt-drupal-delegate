@@ -1,6 +1,6 @@
 {
   "name": "grunt-drupal-delegate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delegate Grunt commands to Drupal extensions",
   "files": [
     "index.js",
